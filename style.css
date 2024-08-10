@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing:auto;
+    font-weight: 100;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100,
+      "YTLC" 500;
+    background-color: white;
+    background-size: contain;
+    background-position: center;
+    height: 100vh;
+    color:#6528F7;
+    text-shadow: -0.1 px 0 #6528F7, 0 0.1 #6528F7, 0.1px 0 #6528F7;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.contenedor{
+    max-width: 80%;
+    width: 400px;
+    height: 500px;
+    margin: 0 auto;
+    box-shadow: 2px 2px 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 20px; 
+    padding-bottom: 20px;
+    background-color: white;
+    border-radius: 5%;
+    margin-top: 60px;
+}
+.encabezado{
+    padding: 10px 0 5px 0;
+}
+.agregar{
+    background-color: #d7c7fd;
+    border-radius: 15px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap: 70px;
+}
+.agregar input{
+    width: 400%;
+    height: 100%;
+    border-radius: 8px;
+    border-color: #d7c7fd;
+    background-color: #d7c7fd;
+    padding-left: 10px;
+}
+.agregar input::placeholder{
+    font-size: 1.1rem;
+    color: #45454D;
+}
+.agregar i{
+    font-size: 45px;
+    color: #050C9C;
+}
+.agregar i:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+/*sección de tareas*/
+.tareas h2{
+    margin-bottom: 20px; 
+    color: #45454D; 
+}
+.tareas li{
+    background-color: #d7c7fd;
+    border-radius: 15px;
+    padding: 10px;
+    color: #45454D;
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.tareas{
+    font-size: 25px;
+    font-weight: 200;
+}
+.tareas p{
+    font-weight: 600;
+}
+.tareas i:hover{
+    color: #050C9C;
+    cursor: pointer;
+}
+.tachado{
+    text-decoration: line-through;
+    color: #45454D;
+}
